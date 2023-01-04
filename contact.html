@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>btc research</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <div class="btc">btc</div>
+            <div class="insider">research</div>
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="article.html" class="nav-link"> article </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>Want To Get In Touch?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+            quibusdam consectetur minima quidem sed veritatis reiciendis.
+            Ducimus dolorum voluptate exercitationem inventore cumque recusandae
+            totam saepe eveniet doloribus nulla, dicta rem!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A itaque
+            sit architecto eum. Sint placeat a quaerat molestias est neque
+            tempora? Distinctio dolorem reiciendis cupiditate asperiores iure
+            exercitationem, possimus ipsum!
+          </p>
+        </article>
+        <article>
+          <form action="https://formspree.io/f/xknanryo" method="POST"class="form contact-form">
+            <div class="form-row">
+              <label html="name" class="form-label">your name</label>
+              <input type="text" name="name" id="name" class="form-input" />
+            </div>
+            <div class="form-row">
+              <label html="email" class="form-label">your email</label>
+              <input type="email" name="email" id="email" class="form-input" />
+            </div>
+            <div class="form-row">
+              <label html="message" class="form-label">message</label>
+              <textarea
+                name="message"
+                id="message"
+                class="form-textarea"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">submit</button>
+          </form>
+        </article>
+      </section>
+      <!-- featured article -->
+      <section class="featured-article">
+        <h5 class="featured-title">Do not miss!</h5>
+        <div class="article-list">
+          <!-- single article -->
+          <a href="article_charts.html" class="article">
+            <img
+              src="./assets/article/article-1.jpeg"
+              class="img article-img"
+              alt=""
+            />
+            <h5>Charts</h5>
+            <p>Read : 10 min | Charts, Indicator</p>
+          </a>
+          <!-- end of single article -->
+          <!-- single article -->
+          <a href="article_web3.html" class="article">
+            <img
+              src="./assets/article/article-3.jpeg"
+              class="img article-img"
+              alt=""
+            />
+            <h5>Web3</h5>
+            <p>Read : 5min | Roadmap, Hosting, Links</p>
+          </a>
+          <!-- end of single article -->
+          <!-- single article -->
+          <a href="article_bitcoin.html" class="article">
+            <img
+              src="./assets/article/article-2.jpeg"
+              class="img article-img"
+              alt=""
+            />
+            <h5>Bitcoin</h5>
+            <p>Read : 5 min | Story, Exchanges, Wallets</p>
+          </a>
+          <!-- end of single article -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">btcInsider</span> Built by
+        <a href="mailto:xoxoweb@web.de?subject=Feedback&amp;body=Message"
+          >xoxoweb</a
+        >
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
